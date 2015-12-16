@@ -34,6 +34,7 @@ In case if your ESP module was flashed to use another baud rate for serial commu
 uart.setup(0,115200,8,0,1,1)
 ```
 Just do the following steps to be able to upload your files in `115200` baud rate:
+
 1. Change the `baud_rate` to `9600` (or to the baud rate supported by your NodeMCU ESP module) in [`uploader.py`](uploader.py).
 2. Execute: 
     ```
